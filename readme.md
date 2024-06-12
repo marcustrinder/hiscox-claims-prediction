@@ -1,5 +1,5 @@
 # Hiscox Claims Prediction
-
+#
 ## Project Overview
 
 This project aims to determine the likelihood of claims for insurance applications using machine learning. The project involves extracting functionalities from a Jupyter notebook, setting up a CI/CD pipeline, and deploying the model to a cloud service.
@@ -25,6 +25,8 @@ hiscox-claims-prediction/
 │ ├── evaluate_model.py
 │ ├── predict.py
 ├── deployment/
+| ├── sg_register_model.py
+| ├── sg_create_group.py
 │ ├── train_model.py
 │ ├── deploy_model.py
 ├── requirements.txt
@@ -41,7 +43,6 @@ hiscox-claims-prediction/
 - GitHub account (for CI/CD)
 - AWS CLI
 
-### AWS Configuration
 
 1. **Install AWS CLI**:
 
