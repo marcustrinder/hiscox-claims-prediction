@@ -1,7 +1,7 @@
 from sagemaker.model import Model
 
 model = Model(
-    model_data='s3://your-bucket-name/path_to_your_model.tar.gz',
+    model_data='s3://bucket-name/path_to_model.tar.gz',
     role='arn:aws:iam::your-account-id:role/SageMakerExecutionRole',
     entry_point='deployment/train_model.py'
 )
